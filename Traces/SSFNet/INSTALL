@@ -1,0 +1,36 @@
+Net::Traces::SSFNet
+===================
+
+
+INSTALLATION
+
+First, unpack the archive:
+
+% gunzip Net-Traces-SSFNet-0.01.tar.gz
+% tar xvf Net-Traces-SSFNet-0.01.tar
+% cd Net/Traces/SSFNet
+
+Then, install the module using:
+
+% perl Makefile.PL
+% make
+% make test
+% make install
+
+If you want to install the module in a directory other than the default try
+
+% perl Makefile.PL LIB=my_perl_lib_dir
+% make
+% make test
+% make install
+
+DEPENDENCIES
+
+Very fundamental: strict and Carp
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 Kostas Pentikousis. All Rights Reserved.
+
+This library is free software with ABSOLUTELY NO WARRANTY.
+You can redistribute it and/or modify it under the same terms as Perl itself.
